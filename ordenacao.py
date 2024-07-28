@@ -1,9 +1,10 @@
-palavras = ["Gama", "Matematica", "Vestibular", "IA"]
-caracter = "a"
-
 dicio = {}
 listaPalavra = []
 listaValor = []
+
+palavras = input("Digite as palavras separadas por vírgula e espaço: ")
+caracter = input("Digite o caracter: ")
+palavras = palavras.split(', ')
 
 # Percorre o array de palavras, conta a quantidade de letras e coloca em um dicionário
 for palavra in palavras:
